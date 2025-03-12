@@ -1,0 +1,68 @@
+header {
+    background-color: #131527;
+    padding: 0px;
+    position: relative; 
+    display: flex;
+    height: 57px;
+  }
+  
+  header img {
+    width: 45px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    background-color: transparent; /* Cor de fundo para a imagem */
+  }
+  
+  
+  header p{
+    color: white;
+    margin-left: 45px;
+    font-size: 23px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+  }
+  
+  header button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .profile-image {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .profile-image img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-button {
+    margin-top: 25px;
+      width: 100%;
+      height: flex;
+      background-color: #323866;
+      border: none;
+      color: #fff;
+      font-size: 15px;
+      border-radius: 75px; /* Aumentei o valor do border-radius */
+      margin-bottom: 30px;
+      cursor: pointer;
+  }
+  

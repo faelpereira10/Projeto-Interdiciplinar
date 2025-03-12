@@ -1,0 +1,30 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    height: 100%;
+    padding: 0px;
+}
+
+.button-container button {
+    width: 100%;
+    height: 50px;
+    background-color: #323866;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.button-container .middle-button {
+    width: 100%; /* Defina a mesma largura para o botão .middle-button */
+    height: 50px; /* Defina a mesma altura para o botão .middle-button */
+    background-color: #EBE7DF;
+    border: #323866;
+    border-style: solid;
+    border-radius: 10px; /* Use o mesmo valor de border-radius que os outros botões */
+    color: black;
+}

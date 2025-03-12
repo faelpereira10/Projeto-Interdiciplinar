@@ -1,0 +1,40 @@
+header {
+    background-color: #131527;
+    padding: 0px;
+    position: relative; 
+    display: flex;
+    height: 57px;
+  }
+  
+  header img {
+    width: 45px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    background-color: transparent; /* Cor de fundo para a imagem */
+  }
+  
+  
+  header p{
+    color: white;
+    margin-left: 45px;
+    font-size: 23px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+  }
+  
+  header button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  table td{
+    padding-top: 15px;
+  }
+
+  table{
+    margin-left: 20px;
+  }

@@ -1,0 +1,23 @@
+.tr{
+    padding-top: 10px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-button {
+    margin-top: 25px;
+      width: 100%;
+      height: flex;
+      background-color: #323866;
+      border: none;
+      color: #fff;
+      font-size: 15px;
+      border-radius: 75px; /* Aumentei o valor do border-radius */
+      margin-bottom: 30px;
+      cursor: pointer;
+  }
+  

@@ -1,0 +1,66 @@
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #131527;
+  transition: height 0.3s;
+  overflow: hidden;
+}
+
+#expand-button {
+  text-align: center;
+  background-color: transparent;
+}
+
+#content {
+  height: 0;
+  transition: height 0.3s;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Adicionado para alinhar horizontalmente */
+  margin-top: 20px; /* Adicionado para espaçamento no topo */
+}
+
+.procure {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: transparent;
+  color: white; /* Cor do texto */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0); /* Fundo transparente */
+  color: white; /* Cor do texto */
+}
+
+.table th,
+.table td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #131527;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table a {
+  color: #007bff; /* Cor de link padrão do Bootstrap */
+  text-decoration: none;
+}
+
+.table a:hover {
+  text-decoration: underline;
+}

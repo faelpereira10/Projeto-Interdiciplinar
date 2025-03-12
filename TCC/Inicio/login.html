@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login - Carga Facil</title>
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<header>
+		<a href="1tela.html" class="back-button">&#8592;</a><br>
+		<div class="logo-container">
+			<img src="logo.png" alt="" style="height: 30px; width: 30px;">
+				<h1>Carga Fácil</h1>
+		</div>
+	</header>
+	<main>
+		<h2>Para continuar, faça log-in em sua conta</h2>
+	
+        <center><p>_________________________________________</p></center><br>
+
+		<form action="../verifica.php" method="post">
+			<label for="email">E-mail:</label>
+			<input type="email" id="email" name="email" >
+
+			<label for="senha">Senha:</label>
+			<input type="password" id="senha" name="senha" >
+			<p><a href="esqueceusenha">Esqueceu a senha</a></p>
+
+            <div class="button-container">
+                <a href="../verifica.php" style="border-radius: 30px;"><button type="submit">Entrar</button></a>
+            </div>
+			
+		</form>
+		<p>Ainda não possui conta? <a href="1tela.html">Registre-se</a></p>
+	</main>
+</body>
+</html>
